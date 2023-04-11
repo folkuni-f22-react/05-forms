@@ -8,6 +8,7 @@
 }
 .field input {
 	flex-grow: 1;
+	border-width: 3px;
 }
 
 .field-group {
@@ -15,7 +16,7 @@
 	flex-direction: column;
 	margin-bottom: 1em;
 	/* border: 1px solid rgb(96, 113, 91); */
-	background-color: rgb(208, 237, 199);
+	/* background-color: rgb(208, 237, 199); */
 }
 
 label {
@@ -25,4 +26,17 @@ label {
 button {
 	font-size: 110%;
 	padding: 0.4em 1.4em;
+}
+
+.display-error-message {
+	display: inline-block;
+	min-height: 1.2em;
+	min-width: 1em;
+	color: rgb(160, 16, 16);
+}
+.invalid {
+	border-color: rgb(160, 16, 16);
+}
+.valid {
+	border-color: rgb(16, 94, 29);
 }
